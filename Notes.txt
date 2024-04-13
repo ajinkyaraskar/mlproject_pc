@@ -1,0 +1,55 @@
+# end to end ML project
+ref: https://www.youtube.com/watch?v=Rv6UFGNmNZg&t=1127s
+
+Agenda 
+1. Setup the github
+	a. create env
+	b. setup.py 
+	c. requirements.txt
+
+2. src folder and build package
+
+Cd in project folder and launch vscode in conda by cmd code .
+
+create venv named venv and grant all permissions by y
+conda create -p venv python==3.8 -y
+
+activate and open 
+conda activate venv/
+
+git init
+
+created README.md
+
+git add README.md
+
+git commit -m "First Commit"
+git branch -M main
+git remote add origin https://github.com/ajinkyaraskar/mlproject.git
+git push -u origin main
+
+git ignore contains list of files that are not necessary  
+
+create file in github named .gitignore then choose python in option
+git pull
+
+create setup.py 
+it will be able to create appn as package which we will be able to install using pypi
+
+create src folder 
+inside src add __init__.py
+
+whenever setup.py will run find packages will run and it will search folders with init.py which will act as packages 
+
+adding -e . will automatically trigger setup.py
+but when we run setup.py directly  it should not trigger -e . so we will remove it from get_requirements in setup.py
+
+pip install -r requirements.txt
+
+before git add . confirm to pull gitignore
+else if unnecessary files are added use git reset HEAD .
+
+git add .    
+git status
+git commit -m "Setup"   
+git push -u origin main

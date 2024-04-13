@@ -1,0 +1,31 @@
+2nd video
+ref https://www.youtube.com/watch?v=sDWL30CzJT8&t=499s
+
+create components folder in src and init.py
+create data_ingestion.py, data_transformation.py
+model_trainer.py
+
+create pipeline folder
+with init, predict_pipeline, train_pipeline .py files
+
+exception.py
+sys - to manipulate dif parts of py runtime env.
+exc_tb - info of line no, file in which
+
+details of fn used can be found in custom exception handling documentation (search)
+
+logger.py
+A log file name is generated based on the current date and time.
+A directory named "logs" is created in the current working directory if it doesn't exist already.
+A log file path is created by joining the "logs" directory path with the log file name.
+Basic logging configuration is set up with the log file path, a specific format for log messages, and the logging level set to INFO.
+
+
+added and tested code for logger, exception 
+
+commited code to github
+
+
+
+
+3rd video
