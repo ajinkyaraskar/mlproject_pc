@@ -7,7 +7,7 @@
     <list default="true" id="1d279f8f-64cc-4160-afec-00846627faf9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/data_ingestion.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/data_ingestion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/data_transformation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/data_transformation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/model_trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/model_trainer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
