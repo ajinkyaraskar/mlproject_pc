@@ -1,7 +1,10 @@
-pandas
-numpy
+pandas~=2.2.2
+numpy~=1.26.4
 seaborn
-scikit-learn
-catboost
-xgboost
+scikit-learn~=1.4.2
+catboost~=1.2.3
+xgboost~=2.0.3
 -e .
+dill~=0.3.8
+Flask~=3.0.3
+setuptools~=68.2.0
