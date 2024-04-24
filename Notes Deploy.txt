@@ -1,0 +1,79 @@
+https://www.youtube.com/watch?v=gbJn2Ls2QsI&t=18s&ab_channel=KrishNaik
+
+App will be deployed on elastic beanstalk which is easiest method 
+elastic beanstalk is used to run and manage web app
+
+1) in confg for beanstalk its application so we create application.py code 
+
+2) remove debug = True from application.py
+
+Beanstalk is linux mc in cloud
+it requires config file
+
+github will have code config and requirements.txt
+
+ref
+C:\Users\Ajinkya\Pictures\Screenshot 2024-04-24 102212.png
+
+Search Elastic beanstalk 
+create application
+name eg StudentPerformance
+
+platform python
+choose version 
+
+application code 
+sample appn
+
+env will get created
+
+search codepipeline
+Its for continuous delivery
+
+create pipeline 
+
+pipeline name
+StudentPerformance
+next
+
+source 
+github v1
+
+connect github 
+allow
+
+select repository 
+branch main
+
+change detection
+keep github webhook
+
+skip build stage
+
+
+deploy provider 
+aws beanstalk
+
+
+region (in video) 
+us east n virginia
+
+app name 
+StudentPerformance
+
+env 
+StudentPerformance-env
+
+
+in video deploy failed 
+it was successfully deployed after deleting app.py
+
+in link deployed successfully 
+there will be url for app.
+
+
+when change is made ie commited and pushed in github
+Dev tools>codepipeline>pipelines>studentperformance
+Release change
+
+ 
